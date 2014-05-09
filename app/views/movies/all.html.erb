@@ -1,0 +1,7 @@
+<a href="/">HOME</a>
+
+<% @movies.each do |movie| %>
+  <h1><%= movie.title %></h1>
+  <img src="<%= movie.movie_poster %>">
+  <hr>
+<% end %>
